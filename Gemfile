@@ -27,6 +27,6 @@ gem 'jquery-rails'
 # WEB SERVERS TO TEST #
 # # # # # # # # # # # #
 
-gem 'unicorn'
-# gem 'puma'
+# gem 'unicorn'
+gem 'puma'
 # gem 'thin'
