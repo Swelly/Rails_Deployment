@@ -1,3 +1,3 @@
 class Fire < ActiveRecord::Base
-  # attr_accessible :title, :body
+  attr_accessible :location, :intensity
 end

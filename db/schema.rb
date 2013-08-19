@@ -21,6 +21,8 @@ ActiveRecord::Schema.define(:version => 20130819132811) do
   end
 
   create_table "fires", :force => true do |t|
+    t.string   "location"
+    t.integer  "intensity"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
