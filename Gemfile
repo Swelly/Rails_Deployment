@@ -14,6 +14,7 @@ group :production do
 end
 
 gem 'pry-rails'
+gem 'route_downcaser'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
