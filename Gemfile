@@ -31,3 +31,8 @@ gem 'jquery-rails'
 # gem 'unicorn'
 gem 'puma'
 # gem 'thin'
+
+gem 'memcachier' # For our specific memchache on heroku
+gem 'rack-cache' # This adds our rack cache middleware
+gem 'dalli'      # Newer cache Client
+gem 'kgio'       # Better i/o (input / output)
