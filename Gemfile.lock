@@ -54,6 +54,7 @@ GEM
     method_source (0.8.1)
     mime-types (1.24)
     multi_json (1.7.9)
+    newrelic_rpm (3.6.6.147)
     pg (0.15.1)
     polyglot (0.3.3)
     pry (0.9.12.2)
@@ -115,6 +116,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
+  newrelic_rpm
   pg
   pry-rails
   rails (= 3.2.13)
