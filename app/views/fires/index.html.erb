@@ -9,6 +9,7 @@
 
 <% @fires.each do |fire| %>
   <tr>
+    <td><%= fire.location %></td>
     <td><%= link_to 'Show', fire %></td>
     <td><%= link_to 'Edit', edit_fire_path(fire) %></td>
     <td><%= link_to 'Destroy', fire, method: :delete, data: { confirm: 'Are you sure?' } %></td>
