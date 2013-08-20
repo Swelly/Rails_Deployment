@@ -23,7 +23,7 @@ end
 
 gem 'jquery-rails'
 gem 'tweetstream'
-gem 'env'
+gem 'dotenv-rails', :groups => [:development, :test]
 
 # # # # # # # # # # # #
 # WEB SERVERS TO TEST #
