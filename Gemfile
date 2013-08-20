@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
 
 gem 'rails', '3.2.13'
 
@@ -23,6 +22,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'tweetstream'
+gem 'env'
 
 # # # # # # # # # # # #
 # WEB SERVERS TO TEST #
